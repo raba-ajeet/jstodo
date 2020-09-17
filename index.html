@@ -75,8 +75,8 @@
                 localStorage.setItem('itemJson', JSON.stringify(ItemJsonArray))
             }
             update(); 
-            document.getElementById('title').value="";
-            document.getElementById("description").value="";
+            document.getElementById('title').value("");
+            document.getElementById("description").value("");
         }
         update = () => {
             if (localStorage.getItem('itemJson') == null) {
