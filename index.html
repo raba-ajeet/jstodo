@@ -75,6 +75,7 @@
                 localStorage.setItem('itemJson', JSON.stringify(ItemJsonArray))
             }
             update();
+            document.getElementById("add")="";
         }
         update = () => {
             if (localStorage.getItem('itemJson') == null) {
